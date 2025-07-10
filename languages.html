@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talkverse - Master New Languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo"><b>Talkverse</b></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="languages.html">Languages</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="quizzes.html">Quizzes</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+<main class="language-page">
+    <section class="search-section">
+        <h1>Choose Your Language</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search languages..." aria-label="Search languages">
+            <button aria-label="Search"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filter-options" role="group" aria-label="Language filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="popular">Popular</button>
+            <button class="filter-btn" data-filter="european">European</button>
+            <button class="filter-btn" data-filter="asian">Asian</button>
+        </div>
+    </section>
+    <section class="language-grid" aria-label="Available languages">
+        <div class="language-card" data-lang="spanish" data-category="popular european">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/640px-Flag_of_Spain.svg.png" 
+            alt="Spanish flag" alt="Spanish flag" loading="lazy">
+            <div class="language-info">
+                <h3>Spanish</h3>
+                <p>Over 500 million speakers worldwide</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 65%"></div>
+                    <span>65% complete</span>
+                </div>
+                <a href="lessons.html?lang=spanish" class="btn">Explore</a>
+            </div>
+        </div> 
+        <div class="language-card" data-lang="french" data-category="popular european">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png" alt="French flag" loading="lazy">
+            <div class="language-info">
+                <h3>French</h3>
+                <p>Spoken in 29 countries worldwide</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 30%"></div>
+                    <span>30% complete</span>
+                </div>
+                <a href="lessons.html?lang=french" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+</main> <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p><b>Talkverse – A universe of languages and conversation.</b></p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <a href="#"><img src="https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid" alt="Facebook"></a>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrFfXzV4lg0pX2bIQbrVM3xlNqAqZLba6CfA&s" alt="Twitter"></a>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKzRO7JeUdNBl_M9GB4NV18V8duW7mEDM_mg&s" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Talkverse. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes | talkverse</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo"><b>Talkverse</b> </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="languages.html">Languages</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="quizzes.html">Quizzes</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main class="quizzes-main">
+        <section class="quizzes-header">
+            <div class="container">
+                <h1>Test Your Knowledge</h1>
+                <p>Practice what you've learned with interactive quizzes</p>
+                <div class="quiz-filter">
+                    <select id="language-select">
+                        <option value="all">All Languages</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                    </select>
+                    <select id="level-select">
+                        <option value="all">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="quizzes-container">
+            <div class="container">
+                <div class="quiz-cards">
+                    <div class="quiz-card" data-language="spanish" data-level="beginner">
+                        <div class="quiz-badge">Spanish</div>
+                        <h3>Basic Greetings Quiz</h3>
+                        <p>Test your knowledge of common Spanish greetings</p>
+                        <div class="quiz-meta">
+                            <span>10 Questions</span>
+                            <span>Beginner</span>
+                        </div>
+                        <button class="start-quiz-btn">Start Quiz</button>
+                    </div>
+                    <!-- More quiz cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p><b>Talkverse – A universe of languages and conversation.</b></p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid" alt="Facebook"></a>
+                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrFfXzV4lg0pX2bIQbrVM3xlNqAqZLba6CfA&s" alt="Twitter"></a>
+                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKzRO7JeUdNBl_M9GB4NV18V8duW7mEDM_mg&s" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Talkverse. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+    </body>
+    </html>
